@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: singless
 title: TCP bind shellcode
 date: 2018-11-18
 classes: wide
