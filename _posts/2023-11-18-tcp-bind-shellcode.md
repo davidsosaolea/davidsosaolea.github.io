@@ -13,11 +13,9 @@ categories:
   - hackthebox
   - infosec
 tags:  
-  - osticket
+  - EDA
   - mysql
-  - mattermost
-  - hashcat
-  - rules
+
 ---
 
 ![](/assets/images/htb-writeup-delivery/delivery_logo.png)
