@@ -20,50 +20,64 @@ tags:
 
 ![](/assets/images/htb-writeup-EDA-aserradero/EDA.png)
 
-Delivery is a quick and fun easy box where we have to create a MatterMost account and validate it by using automatic email accounts created by the OsTicket application. The admins on this platform have very poor security practices and put plaintext credentials in MatterMost. Once we get the initial shell with the creds from MatterMost we'll poke around MySQL and get a root password bcrypt hash. Using a hint left in the MatterMost channel about the password being a variation of PleaseSubscribe!, we'll use hashcat combined with rules to crack the password then get the root shell.
+El EDA nos permitirá examinar las ventas en diferentes dimensiones, como la cantidad de productos vendidos, los ingresos generados, los clientes y los patrones estacionales. Además, exploraremos posibles relaciones entre las ventas y variables externas, como el precio de la madera en el mercado, eventos específicos o cambios en la demanda del mercado.
 
-## Portscan
+A través del análisis exploratorio de datos de ventas en un aserradero, esperamos identificar oportunidades de mejora, patrones de demanda y áreas donde se pueden implementar estrategias para maximizar la eficiencia operativa y optimizar los resultados financieros. El conocimiento obtenido a partir de este análisis proporcionará información valiosa para los equipos de gestión, ventas y producción, ayudándoles a tomar decisiones fundamentadas y a adaptar sus estrategias en un mercado en constante cambio.
+
+## Microsoft SQL Server
+
+En este estudio, nos enfocaremos en analizar las ventas de productos en un aserradero utilizando datos almacenados en tablas dentro de una base de datos en SQL Server. El primer paso será comprender dónde se encuentran los datos, para identificar cuáles son relevantes y útiles para nuestro análisis.
+
+Al explorar las tablas en la base de datos, buscaremos aquellas que contengan información relacionada con las ventas, como la cantidad de productos vendidos, los ingresos generados y los datos de los clientes. Al identificar estas tablas, podremos determinar qué variables son más relevantes para nuestro análisis y nos proporcionarán información valiosa sobre el desempeño de las ventas en el aserradero.
+
+Nuestos datos se encuentran en tres tablas "ARTICULO", "CAT_CUBICACION_DETALLE" y "CAT_CUBICACION_CABECERA"
 
 ```
-Nmap scan report for 10.129.148.141
-Host is up (0.018s latency).
-Not shown: 65532 closed ports
-PORT     STATE SERVICE VERSION
-22/tcp   open  ssh     OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)
-| ssh-hostkey: 
-|   2048 9c:40:fa:85:9b:01:ac:ac:0e:bc:0c:19:51:8a:ee:27 (RSA)
-|   256 5a:0c:c0:3b:9b:76:55:2e:6e:c4:f4:b9:5d:76:17:09 (ECDSA)
-|_  256 b7:9d:f7:48:9d:a2:f2:76:30:fd:42:d3:35:3a:80:8c (ED25519)
-80/tcp   open  http    nginx 1.14.2
-|_http-server-header: nginx/1.14.2
-|_http-title: Welcome
-8065/tcp open  unknown
-| fingerprint-strings: 
-|   GenericLines, Help, RTSPRequest, SSLSessionReq, TerminalServerCookie: 
-|     HTTP/1.1 400 Bad Request
-|     Content-Type: text/plain; charset=utf-8
-|     Connection: close
-|     Request
-|   GetRequest: 
-|     HTTP/1.0 200 OK
-|     Accept-Ranges: bytes
-|     Cache-Control: no-cache, max-age=31556926, public
-|     Content-Length: 3108
-|     Content-Security-Policy: frame-ancestors 'self'; script-src 'self' cdn.rudderlabs.com
-|     Content-Type: text/html; charset=utf-8
-|     Last-Modified: Sun, 09 May 2021 00:00:02 GMT
-|     X-Frame-Options: SAMEORIGIN
-|     X-Request-Id: fqrpd5m3ftgnzmxkbieezqadxo
-|     X-Version-Id: 5.30.0.5.30.1.57fb31b889bf81d99d8af8176d4bbaaa.false
-|     Date: Sun, 09 May 2021 00:01:31 GMT
-|     <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0"><meta name="robots" content="noindex, nofollow"><meta name="referrer" content="no-referrer"><title>Mattermost</title><meta name="mobile-web-app-capable" content="yes"><meta name="application-name" content="Mattermost"><meta name="format-detection" content="telephone=no"><link re
-|   HTTPOptions: 
-|     HTTP/1.0 405 Method Not Allowed
-|     Date: Sun, 09 May 2021 00:01:31 GMT
-|_    Content-Length: 0
+SELECT detalle.[pies],
+       detalle.[precio_venta],
+       detalle.[precio_costo],
+       cabecera.[fecha],
+       cabecera.[numero_doc],
+       cabecera.[estado],
+	   cabecera.[motivo],
+	   cabecera.[punto],
+	   cabecera.[total_doc],
+       articulo.[descripcion_larga]
+FROM [SYSDA_LESLY].[dbo].[CAT_CUBICACION_DETALLE] detalle
+JOIN [SYSDA_LESLY].[dbo].[CAT_CUBICACION_CABECERA] cabecera
+    ON detalle.[cod_cubicacion_d] = cabecera.[cod_cubicacion_c]
+JOIN [SYSDA_LESLY].[dbo].[ARTICULO] articulo
+    ON detalle.[cod_articulo] = articulo.[codigo_interno]
+WHERE cabecera.[estado] = 1
+  AND cabecera.[motivo] = 'V'
+  AND cabecera.[punto] = 1
 ```
 
-## Website
+1. La cláusula SELECT selecciona las siguientes columnas de las tablas involucradas:
+   * detalle.[pies]
+   * detalle.[precio_venta]
+   * detalle.[precio_costo]
+   * cabecera.[fecha]
+   * cabecera.[numero_doc]
+   * cabecera.[estado]
+   * cabecera.[motivo]
+   * cabecera.[punto]
+   * cabecera.[total_doc]
+   * articulo.[descripcion_larga]
+<br><br>
+2. La cláusula FROM especifica las tres tablas involucradas en la consulta: CAT_CUBICACION_DETALLE, CAT_CUBICACION_CABECERA y ARTICULO. Se les asignan alias para facilitar su referencia en la consulta (detalle, cabecera y articulo respectivamente).  
+<br>
+3. Los JOINs se utilizan para combinar los registros de las tablas según las siguientes condiciones:
+
+   * ON detalle.[cod_cubicacion_d] = cabecera.[cod_cubicacion_c]: Combina los registros donde el código de cubicación en la tabla de detalle coincide con el código de cubicación en la tabla de cabecera.
+   * ON detalle.[cod_articulo] = articulo.[codigo_interno]: Combina los registros donde el código de artículo en la tabla de detalle coincide con el código interno en la tabla de artículo.
+<br><br>
+4. La cláusula WHERE filtra los resultados según las siguientes condiciones:
+
+   * cabecera.[estado] = 1: Solo se seleccionan los registros donde el estado en la tabla de cabecera es igual a 1.
+   * cabecera.[motivo] = 'V': Solo se seleccionan los registros donde el motivo en la tabla de cabecera es igual a 'V'.
+   * cabecera.[punto] = 1: Solo se seleccionan los registros donde el punto en la tabla de cabecera es igual a 1.   
+## Python
 
 The Delivery website is pretty basic, there's a link to a vhost called helpdesk.delivery.htb and a contact us section. We'll add this entry to our local host before proceeding further.
 
