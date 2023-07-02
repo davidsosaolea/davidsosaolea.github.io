@@ -88,3 +88,16 @@ Utilizaré Python en Visual Studio Code, junto con la biblioteca Pandas, para an
 - precio_venta -> precio de venta
 - precio_costo -> precio de compra
 - fecha        -> fecha en la que se realizó la venta
+- numero_doc   -> indentificador seriado de la venta
+- estado       -> documento realizada(1), documento anulada(2)
+- motivo       -> venta(V), cotizacion(C)
+- punto        -> lugar de la venta
+- total_doc    -> monto total de la venta por documento
+- descripcion_larga -> descripcion del articulo
+
+| Pies | Precio Venta | Precio Costo | Fecha      | Numero Doc | Estado | Motivo | Punto | Total Doc | Descripción Larga |
+|------|--------------|--------------|------------|------------|--------|--------|-------|-----------|-------------------|
+|      |              |              |            |            |        |        |       |           |                   |
+|      |              |              |            |            |        |        |       |           |                   |
+|      |              |              |            |            |        |        |       |           |                   |
+|      |              |              |            |            |        |        |       |           |                   |
