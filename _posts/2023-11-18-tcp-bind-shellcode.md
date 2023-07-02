@@ -101,8 +101,23 @@ Verificamos que nuestros datos tengan el formato correcto.
 
 ![](/assets/images/htb-writeup-EDA-aserradero/tipo.png)
 
-Cambiamos el formato a la columna fecha que es de tipo object por tipo datetime
+Cambiamos el formato a la columna fecha que es de tipo object por tipo fecha usando:
 
 ```
 df1['fecha'] = pd.to_datetime(df1['fecha'])
 ```
+
+Con la ayuda de Matplotlib, graficamos nuestras ventas según la fecha. Sin embargo, se observa una inconsistencia, ya que las ventas comenzaron a registrarse en 2011 y no desde el 2008 como se muestra en la grafica.
+
+![](/assets/images/htb-writeup-EDA-aserradero/output.png)
+
+![](/assets/images/htb-writeup-EDA-aserradero/df2.png)
+
+Una vez identificados los datos erroneos, procedemos a eliminar las filas con estos datos usando:
+```
+df1 = df1.drop([121283, 121284]).reset_index(drop=True)
+```
+
+En la exploración de nuestro conjunto de datos, buscamos valores nulos y encontramos algunos en la columna de descripción. Para solucionarlo, procedimos a eliminarlos.
+
+![](/assets/images/htb-writeup-EDA-aserradero/df3.png)
