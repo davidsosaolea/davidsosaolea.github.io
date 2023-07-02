@@ -84,8 +84,6 @@ Utilizaré Python en Visual Studio Code, junto con la biblioteca Pandas, para an
 
 ![](/assets/images/htb-writeup-EDA-aserradero/df1.png)
 
-- pies         -> numero de pies tablares vendidos
-- precio_venta -> precio de venta
 - precio_costo -> precio de compra
 - fecha        -> fecha en la que se realizó la venta
 - numero_doc   -> indentificador seriado de la venta
@@ -95,9 +93,16 @@ Utilizaré Python en Visual Studio Code, junto con la biblioteca Pandas, para an
 - total_doc    -> monto total de la venta por documento
 - descripcion_larga -> descripcion del articulo
 
-| Pies | Precio Venta | Precio Costo | Fecha      | Numero Doc | Estado | Motivo | Punto | Total Doc | Descripción Larga |
-|------|--------------|--------------|------------|------------|--------|--------|-------|-----------|-------------------|
-|      |              |              |            |            |        |        |       |           |                   |
-|      |              |              |            |            |        |        |       |           |                   |
-|      |              |              |            |            |        |        |       |           |                   |
-|      |              |              |            |            |        |        |       |           |                   |
+Crearemos una columna adicional en nuestro dataframe para calcular el importe unitario de cada artículo, el cual se calcula a partir de los pies tablares y el precio de venta.
+
+![](/assets/images/htb-writeup-EDA-aserradero/importe.bmp)
+
+Verificamos que nuestros datos tengan el formato correcto.
+
+![](/assets/images/htb-writeup-EDA-aserradero/tipo.png)
+
+Cambiamos el formato a la columna fecha que es de tipo object por tipo datetime
+
+```
+df1['fecha'] = pd.to_datetime(df1['fecha'])
+```
