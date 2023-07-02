@@ -82,4 +82,9 @@ WHERE cabecera.[estado] = 1
 
 Utilizaré Python en Visual Studio Code, junto con la biblioteca Pandas, para analizar y procesar datos. Antes de comenzar el análisis, verificaré la correcta carga de nuestros datos, asegurándome de que estén listos para su manipulación y exploración.
 
-![](/assets/images/htb-writeup-delivery/website1.png)
+![](/assets/images/htb-writeup-EDA-aserradero/df1.png)
+
+- pies         -> numero de pies tablares vendidos
+- precio_venta -> precio de venta
+- precio_costo -> precio de compra
+- fecha        -> fecha en la que se realizó la venta
