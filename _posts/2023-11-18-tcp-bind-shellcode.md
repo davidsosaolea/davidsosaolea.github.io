@@ -118,6 +118,24 @@ Una vez identificados los datos erroneos, procedemos a eliminar las filas con es
 df1 = df1.drop([121283, 121284]).reset_index(drop=True)
 ```
 
-En la exploración de nuestro conjunto de datos, buscamos valores nulos y encontramos algunos en la columna de descripción. Para solucionarlo, procedimos a eliminarlos.
+En la exploración de nuestro conjunto de datos, buscamos valores nulos y encontramos algunos en la columna de descripción. Para solucionarlo, procedimos a eliminarlos usando.
+
+```
+df3 = df3.dropna()
+```
 
 ![](/assets/images/htb-writeup-EDA-aserradero/df3.png)
+
+En la lista de productos vendidos, encontramos productos distintos a la venta de madera. Sin embargo, hemos decidido dejar de lado estos productos en este análisis, ya que son productos descontinuados o de oferta limitada por temporadas.
+
+![](/assets/images/htb-writeup-EDA-aserradero/df4.png)
+
+Creamos una lista con todos estos valores que no son necesarios y eliminamos.
+
+![](/assets/images/htb-writeup-EDA-aserradero/df5.png)
+
+Una vez eliminados los valores nulos, aún encontramos artículos con nombres como 'CATAHUA 78', 'CATAHUA 79', 'TORNILLO PTO BLANCO 81', 'CATAHUA 83', que parecen hacer referencia a proveedores o fecha de llegada en lugar de describir los productos en sí.
+
+Con el uso de expresiones regulares, podemos reemplazar cada artículo por el nombre de la madera a la que pertenecen, evitando hacer referencia al proveedor o a la fecha de llegada.
+
+![](/assets/images/htb-writeup-EDA-aserradero/df6.png)
