@@ -24,7 +24,7 @@ El EDA nos permitirá examinar las ventas en diferentes dimensiones, como la can
 
 A través del análisis exploratorio de datos de ventas en un aserradero, esperamos identificar oportunidades de mejora, patrones de demanda y áreas donde se pueden implementar estrategias para maximizar la eficiencia operativa y optimizar los resultados financieros. El conocimiento obtenido a partir de este análisis proporcionará información valiosa para los equipos de gestión, ventas y producción, ayudándoles a tomar decisiones fundamentadas y a adaptar sus estrategias en un mercado en constante cambio.
 
-## Microsoft SQL Server
+## __Microsoft SQL Server__
 
 En este estudio, nos enfocaremos en analizar las ventas de productos en un aserradero utilizando datos almacenados en tablas dentro de una base de datos en SQL Server. El primer paso será comprender dónde se encuentran los datos, para identificar cuáles son relevantes y útiles para nuestro análisis.
 
@@ -78,7 +78,8 @@ WHERE cabecera.[estado] = 1
    * cabecera.[motivo] = 'V': Solo se seleccionan los registros donde el motivo en la tabla de cabecera es igual a 'V'.
    * cabecera.[punto] = 1: Solo se seleccionan los registros donde el punto en la tabla de cabecera es igual a 1.   
 
-## Python
+## __Python__
+## Limpieza de datos
 
 Utilizaré Python en Visual Studio Code, junto con la biblioteca Pandas, para analizar y procesar datos. Antes de comenzar el análisis, verificaré la correcta carga de nuestros datos, asegurándome de que estén listos para su manipulación y exploración.
 
@@ -139,3 +140,21 @@ Una vez eliminados los valores nulos, aún encontramos artículos con nombres co
 Con el uso de expresiones regulares, podemos reemplazar cada artículo por el nombre de la madera a la que pertenecen, evitando hacer referencia al proveedor o a la fecha de llegada.
 
 ![](/assets/images/htb-writeup-EDA-aserradero/df6.png)
+
+## Exploración de datos
+
+Con los datos ya limpios, podemos avanzar con la exploración de datos para obtener insights y comprender mejor el comportamiento de nuestras ventas en el aserradero.
+
+Realizaremos análisis descriptivos, como la generación de estadísticas resumidas y la identificación de patrones y tendencias en las ventas. Utilizaremos gráficos y visualizaciones para visualizar la distribución de las ventas en función de variables clave, como el tiempo, los productos o los clientes.
+
+Además, evaluaremos la relación entre las ventas y otras variables relevantes, como el precio de venta, el costo de los productos y el punto de venta. Esto nos ayudará a identificar factores que influyen en el desempeño de las ventas y a tomar decisiones informadas para mejorar la rentabilidad y eficiencia del aserradero.
+
+El análisis exploratorio de datos nos permitirá descubrir información valiosa sobre las ventas en el aserradero, como los productos más populares, los períodos de mayor demanda, los segmentos de clientes más rentables, entre otros. Estos hallazgos nos ayudarán a definir estrategias de marketing, ajustar los niveles de inventario y optimizar la producción.
+
+En nuestro caso la exploración de datos, también analizaremos la distribución de las ventas por mes y por día de la semana. Esto nos permitirá identificar patrones estacionales y tendencias en el comportamiento de las ventas.
+
+![](/assets/images/htb-writeup-EDA-aserradero/venta.png)
+
+El gráfico nos muestra un incremento en las ventas hacia finales del 2020 y el 2021. Sin embargo, en cuanto a la cantidad de producto vendido, no se observa una diferencia notable. Esto podría deberse a un aumento en los precios de venta, lo que resultó en mayores ingresos sin necesariamente reflejar un aumento significativo en la cantidad de productos vendidos.
+
+![](/assets/images/htb-writeup-EDA-aserradero/catidad.png)
