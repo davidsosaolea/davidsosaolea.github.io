@@ -160,4 +160,4 @@ El gráfico nos muestra un incremento en las ventas hacia finales del 2020 y el 
 ![](/assets/images/htb-writeup-EDA-aserradero/catidad.png)
 
 asdasd
-<iframe src="_includes/mi_grafico_interactivo.html" height="500" width="100%"></iframe>
+<iframe src="https://github.com/davidsosaolea/davidsosaolea.github.io/blob/master/_includes/mi_grafico_interactivo.html" height="500" width="100%"></iframe>
