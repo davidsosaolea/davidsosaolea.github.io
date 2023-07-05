@@ -153,11 +153,16 @@ El análisis exploratorio de datos nos permitirá descubrir información valiosa
 
 En nuestro caso la exploración de datos, también analizaremos la distribución de las ventas por mes y por día de la semana. Esto nos permitirá identificar patrones estacionales y tendencias en el comportamiento de las ventas.
 
+Iniciemos nuestro análisis visualizando el total de las ventas en los distintos años. Esto nos permitirá identificar posibles variaciones en las ventas y comprender mejor la evolución de la demanda a lo largo del tiempo.
+
+![](/assets/images/htb-writeup-EDA-aserradero/newplot.png)
+
+Podemos observar que el año 2021 es particularmente bueno. Para una mejor comparación, grafiquemos la evolución de los años mes a mes, lo cual nos permitirá analizar detalladamente cómo han variado las ventas a lo largo de cada año y identificar posibles patrones estacionales o tendencias.
+
 ![](/assets/images/htb-writeup-EDA-aserradero/venta.png)
+
 
 El gráfico nos muestra un incremento en las ventas hacia finales del 2020 y el 2021. Sin embargo, en cuanto a la cantidad de producto vendido, no se observa una diferencia notable. Esto podría deberse a un aumento en los precios de venta, lo que resultó en mayores ingresos sin necesariamente reflejar un aumento significativo en la cantidad de productos vendidos.
 
 ![](/assets/images/htb-writeup-EDA-aserradero/catidad.png)
 
-asdasd
-<iframe src="https://github.com/davidsosaolea/davidsosaolea.github.io/blob/master/_includes/mi_grafico_interactivo.html" height="500" width="100%"></iframe>
