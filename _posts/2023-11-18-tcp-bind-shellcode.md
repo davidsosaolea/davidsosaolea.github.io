@@ -158,3 +158,8 @@ En nuestro caso la exploración de datos, también analizaremos la distribución
 El gráfico nos muestra un incremento en las ventas hacia finales del 2020 y el 2021. Sin embargo, en cuanto a la cantidad de producto vendido, no se observa una diferencia notable. Esto podría deberse a un aumento en los precios de venta, lo que resultó en mayores ingresos sin necesariamente reflejar un aumento significativo en la cantidad de productos vendidos.
 
 ![](/assets/images/htb-writeup-EDA-aserradero/catidad.png)
+
+
+<iframe src="assets\images\htb-writeup-EDA-aserradero\mi_grafico_interactivo.html" height="500" width="100%"></iframe>
+
+HOLA
