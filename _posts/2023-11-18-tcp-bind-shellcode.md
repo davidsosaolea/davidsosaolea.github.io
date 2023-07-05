@@ -160,11 +160,4 @@ El gráfico nos muestra un incremento en las ventas hacia finales del 2020 y el 
 ![](/assets/images/htb-writeup-EDA-aserradero/catidad.png)
 
 asdasd
-
-Aquí hay un fragmento de HTML sin procesar:
-
-{% raw %}
-{% include mi_grafico_interactivo.html %}
-{% endraw %}
-
-El resto del contenido sigue en Markdown...
+<iframe src="_includes/mi_grafico_interactivo.html" height="500" width="100%"></iframe>
