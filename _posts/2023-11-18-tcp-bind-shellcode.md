@@ -166,3 +166,8 @@ El gráfico nos muestra un incremento en las ventas hacia finales del 2020 y el 
 
 ![](/assets/images/htb-writeup-EDA-aserradero/catidad.png)
 
+Sería interesante continuar con el análisis y mostrar la dispersión de las ventas para comprender el comportamiento y la distribución de las mismas. Esto nos ayudará a identificar posibles outliers, variabilidad en los datos y patrones en los puntos de venta.
+
+Un scatterplot sería la gráfica que nos proporcionaría esa información. Un scatterplot nos permitiría visualizar la dispersión del producto vendido en cada año.
+
+![](/assets/images/htb-writeup-EDA-aserradero/dispe.png)
