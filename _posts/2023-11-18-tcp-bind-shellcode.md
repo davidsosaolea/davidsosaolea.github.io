@@ -171,3 +171,5 @@ Sería interesante continuar con el análisis y mostrar la dispersión de las ve
 Un scatterplot sería la gráfica que nos proporcionaría esa información. Un scatterplot nos permitiría visualizar la dispersión del producto vendido en cada año.
 
 ![](/assets/images/htb-writeup-EDA-aserradero/dispe.png)
+
+
