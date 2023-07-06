@@ -175,4 +175,6 @@ Un scatterplot sería la gráfica que nos proporcionaría esa información. Un s
 
 Podríamos visualizar la distribución de nuestras ventas según el día de la semana para identificar los mejores días en términos de ventas. Esto nos permitiría comprender los patrones de demanda y determinar en qué días de la semana se registran mayores ventas.
 
-![](/assets/images/htb-writeup-EDA-aserradero/dias.png)
+![](/assets/images/htb-writeup-EDA-aserradero/dias.png) ![](/assets/images/htb-writeup-EDA-aserradero/trimestre.png)
+
+
