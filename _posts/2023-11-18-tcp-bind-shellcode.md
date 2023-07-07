@@ -181,14 +181,16 @@ Una gráfica de la cantidad de productos vendidos en el tiempo nos permitiría v
 
 ![](/assets/images/htb-writeup-EDA-aserradero/pvendido.png) 
 
+![](/assets/images/htb-writeup-EDA-aserradero/top.png) 
+
 
 # ¿Qué hemos aprendido de nuestros datos?
 
 A través del análisis exploratorio de datos, hemos obtenido varias conclusiones clave:
 
-Observamos un incremento en las ventas hacia finales del 2020 y el 2021, lo cual puede estar relacionado con un aumento en los precios de venta.
-No se aprecia una diferencia notable en la cantidad de productos vendidos a lo largo de los años, lo que respalda la idea de un incremento en los precios como factor principal del aumento en los ingresos.
-Al realizar un análisis mes a mes, podemos identificar posibles patrones estacionales o tendencias en las ventas, lo que nos permite una mejor comparación entre años.
-La dispersión de las ventas nos muestra la variabilidad en los datos y nos ayuda a identificar posibles outliers y patrones en los puntos de venta.
-Al visualizar las ventas según el día de la semana, podemos identificar los mejores días en términos de ventas y comprender los patrones de demanda.
-Estos hallazgos nos brindan una comprensión más profunda del comportamiento de las ventas en el aserradero y nos proporcionan información valiosa para tomar decisiones estratégicas, como ajustar los precios, optimizar la gestión del inventario y mejorar la planificación de la producción.
+1. Observamos un incremento en las ventas hacia finales del 2020 y el 2021, lo cual puede estar relacionado con un aumento en los precios de venta.
+2. No se aprecia una diferencia notable en la cantidad de productos vendidos a lo largo de los años, lo que respalda la idea de un incremento en los precios como factor principal del aumento en los ingresos.
+3.Al realizar un análisis mes a mes, podemos identificar posibles patrones estacionales o tendencias en las ventas. Se observa que los dos últimos trimestres tienen un mejor desempeño en ventas.
+4. Al visualizar las ventas según el día de la semana, podemos identificar los mejores días en términos de ventas y comprender los patrones de demanda. Se observa que la demanda es mayor al inicio de la semana y disminuye ligeramente hacia el sábado.
+5. Se evidencia una caída pronunciada en las ventas de "catahua" durante el año 2016. Es importante investigar las posibles causas de este fenómeno.
+6.Los productos con mayores ventas son "catahua", "tornillo", "pino" y "copaiba". Estos productos representan una parte significativa de las ventas totales y pueden ser considerados como los principales impulsores del negocio.
