@@ -177,4 +177,18 @@ Podríamos visualizar la distribución de nuestras ventas según el día de la s
 
 ![](/assets/images/htb-writeup-EDA-aserradero/dias.png) ![](/assets/images/htb-writeup-EDA-aserradero/trimestre.png)
 
+Una gráfica de la cantidad de productos vendidos en el tiempo nos permitiría visualizar las ventas por producto a lo largo del tiempo. Esto nos brindaría información sobre la demanda de cada producto en diferentes períodos y nos ayudaría a identificar tendencias y patrones en las ventas.
 
+![](/assets/images/htb-writeup-EDA-aserradero/pvendido.png) 
+
+
+# ¿Qué hemos aprendido de nuestros datos?
+
+A través del análisis exploratorio de datos, hemos obtenido varias conclusiones clave:
+
+Observamos un incremento en las ventas hacia finales del 2020 y el 2021, lo cual puede estar relacionado con un aumento en los precios de venta.
+No se aprecia una diferencia notable en la cantidad de productos vendidos a lo largo de los años, lo que respalda la idea de un incremento en los precios como factor principal del aumento en los ingresos.
+Al realizar un análisis mes a mes, podemos identificar posibles patrones estacionales o tendencias en las ventas, lo que nos permite una mejor comparación entre años.
+La dispersión de las ventas nos muestra la variabilidad en los datos y nos ayuda a identificar posibles outliers y patrones en los puntos de venta.
+Al visualizar las ventas según el día de la semana, podemos identificar los mejores días en términos de ventas y comprender los patrones de demanda.
+Estos hallazgos nos brindan una comprensión más profunda del comportamiento de las ventas en el aserradero y nos proporcionan información valiosa para tomar decisiones estratégicas, como ajustar los precios, optimizar la gestión del inventario y mejorar la planificación de la producción.
