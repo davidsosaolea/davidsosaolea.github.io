@@ -24,6 +24,8 @@ El EDA nos permitirá examinar las ventas en diferentes dimensiones, como la can
 
 A través del análisis exploratorio de datos de ventas en un aserradero, esperamos identificar oportunidades de mejora, patrones de demanda y áreas donde se pueden implementar estrategias para maximizar la eficiencia operativa y optimizar los resultados financieros. El conocimiento obtenido a partir de este análisis proporcionará información valiosa para los equipos de gestión, ventas y producción, ayudándoles a tomar decisiones fundamentadas y a adaptar sus estrategias en un mercado en constante cambio.
 
+El notebook esta en [github](https://github.com/davidsosaolea/EDA_aserradero/blob/main/Notebook.ipynb) si quieres echarle un ojo. 
+
 ## __Microsoft SQL Server__
 
 En este estudio, nos enfocaremos en analizar las ventas de productos en un aserradero utilizando datos almacenados en tablas dentro de una base de datos en SQL Server. El primer paso será comprender dónde se encuentran los datos, para identificar cuáles son relevantes y útiles para nuestro análisis.
