@@ -190,7 +190,7 @@ A través del análisis exploratorio de datos, hemos obtenido varias conclusione
 
 1. Observamos un incremento en las ventas hacia finales del 2020 y el 2021, lo cual puede estar relacionado con un aumento en los precios de venta.
 2. No se aprecia una diferencia notable en la cantidad de productos vendidos a lo largo de los años, lo que respalda la idea de un incremento en los precios como factor principal del aumento en los ingresos.
-3.Al realizar un análisis mes a mes, podemos identificar posibles patrones estacionales o tendencias en las ventas. Se observa que los dos últimos trimestres tienen un mejor desempeño en ventas.
+3. Al realizar un análisis mes a mes, podemos identificar posibles patrones estacionales o tendencias en las ventas. Se observa que los dos últimos trimestres tienen un mejor desempeño en ventas.
 4. Al visualizar las ventas según el día de la semana, podemos identificar los mejores días en términos de ventas y comprender los patrones de demanda. Se observa que la demanda es mayor al inicio de la semana y disminuye ligeramente hacia el sábado.
 5. Se evidencia una caída pronunciada en las ventas de "catahua" durante el año 2016. Es importante investigar las posibles causas de este fenómeno.
-6.Los productos con mayores ventas son "catahua", "tornillo", "pino" y "copaiba". Estos productos representan una parte significativa de las ventas totales y pueden ser considerados como los principales impulsores del negocio.
+6. Los productos con mayores ventas son "catahua", "tornillo", "pino" y "copaiba". Estos productos representan una parte significativa de las ventas totales y pueden ser considerados como los principales impulsores del negocio.
