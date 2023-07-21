@@ -185,6 +185,9 @@ Una gráfica de la cantidad de productos vendidos en el tiempo nos permitiría v
 
 ![](/assets/images/htb-writeup-EDA-aserradero/top.png) 
 
+## __GITHUB__
+Se puede encontrar el notebook en [mi github](https://github.com/davidsosaolea/EDA_aserradero){:target="_blank"}
+
 
 # ¿Qué hemos aprendido de nuestros datos?
 
