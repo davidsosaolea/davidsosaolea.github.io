@@ -74,7 +74,7 @@ El script crea una lista Price_buy multiplicando cada precio en Price_list por 1
 
 Este script es una herramienta poderosa para recopilar información de productos de una tienda online. Sin embargo, es importante recordar que el web scraping debe usarse de manera responsable y de acuerdo con las políticas de cada sitio web.
 
-
+![](/assets/images/htb-writeup-web-scraping/rrr.png)
 
 
 ## __GITHUB__
