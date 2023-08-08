@@ -3,7 +3,7 @@ layout: single
 title: EDA de las ventas en un aserradero
 excerpt: "En el mundo empresarial, la capacidad de comprender y utilizar eficazmente los datos es esencial para el éxito y el crecimiento de una organización. En este sentido, el análisis exploratorio de datos (EDA, por sus siglas en inglés) se ha convertido en una herramienta fundamental para examinar y extraer información valiosa de los conjuntos de datos.
 El objetivo de este estudio es realizar un análisis exploratorio de datos de las ventas en un aserradero, con el fin de descubrir información relevante que pueda respaldar la toma de decisiones estratégicas y operativas."
-date: 2023-12-25
+date: 2023-01-22
 classes: wide
 header:
   teaser: assets/images/htb-writeup-EDA-aserradero/EDA.png
