@@ -2,7 +2,7 @@
 layout: single
 title: Web scraping
 excerpt: "En la economía digital de hoy en día, los datos se han convertido en una fuerza impulsora para el crecimiento y desarrollo de las empresas. Los datos relevantes y precisos pueden ayudar a las empresas a tomar decisiones informadas, y el Web Scraping ha surgido como una estrategia efectiva para adquirir estos datos. En este proyecto, nuestro objetivo es emplear técnicas de web scraping para extraer información útil de una tienda en línea."
-date: 2023-07-29
+date: 2023-09-25
 classes: wide
 header:
   teaser: assets/images/htb-writeup-web-scraping/web.png
