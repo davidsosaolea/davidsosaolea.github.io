@@ -10,7 +10,7 @@ style: |
 
 # David Eduardo Sosa Olea
 
-- **Correo:** davidsosaolea@gmail.com
+- **Correo:** davidsosaolea@gmail.com 1
 - **LinkedIn:** [David Sosa Olea](https://www.linkedin.com/in/david-sosa-olea/)
 
 ## Resumen profesional
