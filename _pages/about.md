@@ -1,7 +1,6 @@
 ---
 title: "About"
-permalink: /about/
-
+permalink: /about/ 
 ---
 
 <link rel="stylesheet" type="text/css" href="/styles.css">
