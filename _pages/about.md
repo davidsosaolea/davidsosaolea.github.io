@@ -2,11 +2,9 @@
 title: "About"
 permalink: /about/
 date: 2024-02-01
-style: |
-  body {
-    margin: 20px;
-  }
 ---
+
+<link rel="stylesheet" type="text/css" href="/styles.css">
 
 # David Eduardo Sosa Olea
 
