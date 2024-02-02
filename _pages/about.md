@@ -8,7 +8,7 @@ date: 2024-02-01
 
 # David Eduardo Sosa Olea
 
-- **Correo:** davidsosaolea@gmail.com 1
+- **Correo:** davidsosaolea@gmail.com
 - **LinkedIn:** [David Sosa Olea](https://www.linkedin.com/in/david-sosa-olea/){:target="_blank"}
 
 ## Resumen profesional
