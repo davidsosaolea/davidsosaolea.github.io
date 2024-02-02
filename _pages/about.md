@@ -8,8 +8,7 @@ date: 2019-02-15
 
 - **Correo:** davidsosaolea@gmail.com
 - **LinkedIn:** [David Sosa Olea](https://www.linkedin.com/in/david-sosa-olea/)
-- **Cel:** +51 991173627
-- **Github:** [davidsosaolea](https://github.com/davidsosaolea)
+
 
 <div style="margin-bottom: 20px"></div>
 
