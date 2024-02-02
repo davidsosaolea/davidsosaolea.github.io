@@ -1,7 +1,7 @@
 ---
 title: "About"
 permalink: /about/
-date: 2024-02-01
+
 ---
 
 <link rel="stylesheet" type="text/css" href="/styles.css">
