@@ -18,7 +18,7 @@ tags:
 
 ---
 
-![](/assets/images/htb-writeup-EDA-aserradero/EDA.png)
+![](/assets/images/htb-writeup-EDA-aserradero/EDA.jpg)
 
 El EDA nos permitirá examinar las ventas en diferentes dimensiones, como la cantidad de productos vendidos, los ingresos generados, los clientes y los patrones estacionales. Además, exploraremos posibles relaciones entre las ventas y variables externas, como el precio de la madera en el mercado, eventos específicos o cambios en la demanda del mercado.
 
