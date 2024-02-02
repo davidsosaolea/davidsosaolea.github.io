@@ -6,7 +6,7 @@ El objetivo de este estudio es realizar un análisis exploratorio de datos de la
 date: 2023-01-05
 classes: wide
 header:
-  teaser: assets/images/htb-writeup-EDA-aserradero/EDA.png
+  teaser: assets/images/htb-writeup-EDA-aserradero/EDA.jpg
   teaser_home_page: true
   icon: /assets/images/hackthebox.webp
 categories:
