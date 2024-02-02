@@ -1,8 +1,10 @@
 ---
 title: "About"
 permalink: /about/
-date: 2019-02-15
+date: 2024-02-01
 ---
+<br>
+<p align="center">
 
 # David Eduardo Sosa Olea
 
@@ -10,7 +12,8 @@ date: 2019-02-15
 - **LinkedIn:** [David Sosa Olea](https://www.linkedin.com/in/david-sosa-olea/)
 
 
-<div style="margin-bottom: 20px"></div>
+<p align="center">
+</p>
 
 ## Resumen profesional
 
