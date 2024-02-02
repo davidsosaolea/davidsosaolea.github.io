@@ -3,8 +3,6 @@ title: "About"
 permalink: /about/ 
 ---
 
-<link rel="stylesheet" type="text/css" href="/styles.css">
-
 # David Eduardo Sosa Olea
 
 - **Correo:** davidsosaolea@gmail.com
