@@ -1,6 +1,6 @@
 ---
 title: "About"
-layout: categories
+layout: categori_b
 permalink: /about/ 
 ---
 
