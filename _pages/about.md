@@ -5,30 +5,31 @@ permalink: /about/
 author_profile: true
 ---
 
-# David Eduardo Sosa Olea
+# ¡Hola! 
 
-- **Correo:** davidsosaolea@gmail.com
-- **LinkedIn:** [David Sosa Olea](https://www.linkedin.com/in/david-sosa-olea/){:target="_blank"}
+Soy **David Eduardo Sosa Olea**, un apasionado ingeniero electrónico con sólidos conocimientos en análisis de datos y programación. Puedes contactarme a través de mi correo electrónico davidsosaolea@gmail.com o conectarte conmigo en [LinkedIn](https://www.linkedin.com/in/david-sosa-olea/){:target="_blank"}. También puedes explorar algunos de mis proyectos en mi perfil de [GitHub](https://github.com/davidsosaolea){:target="_blank"}.
 
-## Resumen profesional
+## Resumen Profesional:
 
-Soy un ingeniero electrónico con conocimientos sólidos en herramientas de análisis de datos como Power BI, Tableau, Google Data Studio (Looker Studio) y power query, así como habilidades en programación con Python y R. Tengo experiencia en ETL, la construcción de modelos de machine learning, y conocimientos en bases de datos como SQL (PostgreSQL, Microsoft SQL Server, MySQL). Además, cuento con habilidades en el análisis de datos y en la elaboración de informes con Excel avanzado. Tengo conocimientos en estadística inferencial y descriptiva, lo que me permite identificar patrones y tendencias en los datos. En mi carrera, he trabajado en la construcción de KPIs, la elaboración de Dashboards. He trabajado con metodologías ágiles como Scrum y tengo experiencia en el uso de Git y GitHub para el control de versiones.
+Como profesional del análisis de datos, he consolidado habilidades en herramientas como Power BI, Tableau, Google Data Studio, y Power Query. Mi experiencia abarca desde la construcción de modelos de machine learning hasta la manipulación de bases de datos utilizando SQL en entornos como PostgreSQL, Microsoft SQL Server y MySQL. Además, poseo destrezas en programación con Python y R, así como sólidos conocimientos en estadística inferencial y descriptiva.
 
-## Habilidades técnicas
+Mi carrera incluye la elaboración de KPIs, la construcción de Dashboards y la aplicación de metodologías ágiles como Scrum. Me desenvuelvo eficientemente en el manejo de Git y GitHub para el control de versiones.
 
-- **Lenguajes de programación:** Python, R, SQL
-- **Herramientas:** Power BI, Tableau, Google Data Studio, Excel avanzado, Git, GitHub
-- **Técnicas:** ETL, Visualización de datos, web scraping, aprendizaje automático (Machine Learning), gestión de proyectos con Scrum
+## Habilidades Técnicas:
 
-## Educación
+- Lenguajes de Programación: Python, R, SQL
+- Herramientas: Power BI, Tableau, Google Data Studio, Excel avanzado, Git, GitHub
+- Técnicas: ETL, Visualización de datos, Web scraping, Machine Learning, gestión de proyectos con Scrum
 
-- Ingeniero Electrónico, Universidad Privada Antenor Orrego(UPAO)
+## Educación:
+
+- Ingeniero Electrónico, Universidad Privada Antenor Orrego (UPAO)
 - Data Scientist con Python (Platzi)
 - Machine Learning de A a la Z: R y Python para Data Science (Udemy)
 - Data Analyst (Platzi)
 - Aprendizaje de Machine Learning con Python (Platzi)
 - Business Intelligence y Data Management (Platzi)
 
-## Proyectos
+## Proyectos:
 
-- En este [enlace](https://davidsosaolea.github.io) podrás encontrar algunos de mis proyectos
+Puedes explorar algunos de mis proyectos en mi página personal. Cada proyecto refleja mi compromiso con la excelencia y la innovación en el análisis de datos.
