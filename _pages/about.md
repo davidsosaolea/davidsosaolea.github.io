@@ -2,6 +2,7 @@
 title: "About"
 layout: categori_b
 permalink: /about/ 
+author_profile: true
 ---
 
 # David Eduardo Sosa Olea
