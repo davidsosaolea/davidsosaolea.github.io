@@ -1,11 +1,9 @@
 ---
-title: "About"
+title: "¡Hola!"
 layout: categori_b
 permalink: /about/ 
 author_profile: true
 ---
-
-# ¡Hola! 
 
 Soy **David Eduardo Sosa Olea**, un apasionado ingeniero electrónico con sólidos conocimientos en análisis de datos y programación. Puedes contactarme a través de mi correo electrónico davidsosaolea@gmail.com o conectarte conmigo en [LinkedIn](https://www.linkedin.com/in/david-sosa-olea/){:target="_blank"}. También puedes explorar algunos de mis proyectos en mi perfil de [GitHub](https://github.com/davidsosaolea){:target="_blank"}.
 
