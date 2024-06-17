@@ -104,6 +104,12 @@ df.to_csv('datos_limpios.csv', index=False)
 1. **Importar el archivo CSV**: Abre Power BI y selecciona la opción para importar datos desde un archivo CSV.
 2. **Crear visualizaciones**: Utiliza las herramientas de Power BI para crear visualizaciones y dashboards interactivos.
 
+### Resultados
+
+- Puedes ver el código completo del proyecto en mi repositorio de en mi [Github.](https://github.com/davidsosaolea/Player_poker/blob/main/Jugadores_de_poker.ipynb){:target="_blank"}
+
+- El dashboard final creado en Power BI está disponible [AQUI.](https://app.powerbi.com/view?r=eyJrIjoiOTcyZTA3Y2MtNjE2Zi00N2M1LWJmNjgtNTZmN2I5NzRjZTQ2IiwidCI6Ijc1MDRlMzE4LThlMWUtNGQ1NS1iZmZkLTg3NWI0ZGVlODI2MCIsImMiOjR9 ){:target="_blank"}
+
 ### Conclusión
 
 En este proyecto, hemos recorrido todo el proceso de ETL utilizando Python, desde la extracción de datos desde Google Sheets, pasando por su transformación y limpieza, hasta la carga de los datos en Power BI para la creación de dashboards. Este flujo de trabajo es esencial para cualquier analista de datos, ya que garantiza que los datos sean precisos y estén listos para ser analizados de manera efectiva.
