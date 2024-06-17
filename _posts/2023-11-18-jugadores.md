@@ -2,7 +2,7 @@
 layout: single
 title: "Transformación y Carga de Datos desde Google Sheets a Power BI usando Python"
 excerpt: "En este artículo, te mostraré cómo realicé un proyecto de ETL (Extract, Transform, Load) para convertir datos almacenados en Google Sheets a un formato adecuado para su análisis en Power BI. Este proceso implica la extracción de datos, su transformación y limpieza utilizando Python, y la posterior creación de un archivo CSV que se carga en Power BI para la creación de dashboards interactivos."
-date: 2023-11-26
+
 classes: wide
 header:
   teaser: assets/images/htb-writeup-whatsapp/wa.jpg
