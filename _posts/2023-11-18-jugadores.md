@@ -5,7 +5,7 @@ excerpt: "En este artículo, te mostraré cómo realicé un proyecto de ETL (Ext
 
 classes: wide
 header:
-  teaser: assets/images/htb-writeup-whatsapp/wa.jpg
+  teaser: assets/images/htb-writeup-jugadores/ETL_PB.jpg
   teaser_home_page: true
   icon: /assets/images/hackthebox.webp
 categories:
