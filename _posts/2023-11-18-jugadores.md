@@ -116,6 +116,6 @@ En este proyecto, hemos recorrido todo el proceso de ETL utilizando Python, desd
 
 ### Referencias
 
-- [Google Sheets API Documentation](https://developers.google.com/sheets/api)
-- [Pandas Documentation](https://pandas.pydata.org/)
-- [Power BI Documentation](https://docs.microsoft.com/en-us/power-bi/)
+- [Google Sheets API Documentation](https://developers.google.com/sheets/api){:target="_blank"}
+- [Pandas Documentation](https://pandas.pydata.org/){:target="_blank"}
+- [Power BI Documentation](https://docs.microsoft.com/en-us/power-bi/){:target="_blank"}
