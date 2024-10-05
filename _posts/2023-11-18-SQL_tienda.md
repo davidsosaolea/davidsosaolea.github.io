@@ -125,6 +125,6 @@ CREATE TABLE Sucursales (
 ### Paso 3: ¡El Toque Final!
 Con estas tablas, ya tienes todo lo necesario para que tu tienda funcione como una máquina bien engrasada. Desde los clientes que compran, pasando por las ventas, hasta el control de inventario, todo estará al alcance de una consulta SQL.
 
-![](assets/images/htb-writeup-SQL_tienda/tienda 2.png)
+![](/assets/images/htb-writeup-SQL_tienda/tienda 2.png)
 
 ¡Ahora tu tienda tiene un sistema organizado que te permitirá enfocarte en lo más importante: vender y hacer crecer tu negocio! 🎉
