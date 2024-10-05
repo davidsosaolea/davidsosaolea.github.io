@@ -5,7 +5,7 @@ excerpt: "El diseño de una base de datos es crucial para organizar, almacenar, 
 date: 2024-10-04
 classes: wide
 header:
-  teaser: assets/images/htb-writeup-sunedu/porcentaje.png
+  teaser: assets/images/htb-writeup-SQL_tienda/tienda1.png
   teaser_home_page: true
   icon: /assets/images/hackthebox.webp
 categories:
@@ -125,7 +125,6 @@ CREATE TABLE Sucursales (
 ### Paso 3: ¡El Toque Final!
 Con estas tablas, ya tienes todo lo necesario para que tu tienda funcione como una máquina bien engrasada. Desde los clientes que compran, pasando por las ventas, hasta el control de inventario, todo estará al alcance de una consulta SQL.
 
-¡Ahora tu tienda tiene un sistema organizado que te permitirá enfocarte en lo más importante: vender y hacer crecer tu negocio! 🎉
+![](assets/images/htb-writeup-SQL_tienda/tienda 2.png)
 
-## __GITHUB__
-En [mi github](https://github.com/davidsosaolea/){:target="_blank"} puedes encontrar el código de lectura de archivos PDF y el web scraping realizado para la página web de SUNEDU.
+¡Ahora tu tienda tiene un sistema organizado que te permitirá enfocarte en lo más importante: vender y hacer crecer tu negocio! 🎉
