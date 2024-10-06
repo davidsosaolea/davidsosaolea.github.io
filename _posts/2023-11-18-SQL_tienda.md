@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "¡Diseñando la Base de Datos! 🚀"
+title: "¡Diseñando la Base de Datos 1! 🚀"
 excerpt: "El diseño de una base de datos es crucial para organizar, almacenar, y gestionar la información de manera eficiente. Una base de datos bien estructurada permite realizar consultas rápidas, garantiza la integridad de los datos, y facilita la escalabilidad del sistema. En una tienda, por ejemplo, la base de datos es el núcleo que gestiona las interacciones entre clientes, productos, ventas, inventario, y más."
 date: 2024-10-04
 classes: wide
